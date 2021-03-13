@@ -1,1 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2021-03-13T10:37:31.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="14.4.8" etag="ByuWGz86iBgSezV1JwYT" type="github"><diagram id="17hlZYiUtrnKDkVba6k1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-13T11:05:53.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="63cmbWBqql_CIWDO1V39" version="14.4.8" type="github">
+  <diagram id="17hlZYiUtrnKDkVba6k1" name="Page-1">
+    <mxGraphModel dx="875" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-7" target="rcmPrmMot0k1nDIsFZoV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-2" target="rcmPrmMot0k1nDIsFZoV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-2" target="rcmPrmMot0k1nDIsFZoV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-2" value="guess the word" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-4" target="rcmPrmMot0k1nDIsFZoV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-4" target="rcmPrmMot0k1nDIsFZoV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-4" value="is guess word is correct ?&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-5" value="lose a life" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-7" value="Generate a random word" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-10" target="rcmPrmMot0k1nDIsFZoV-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="200" as="sourcePoint" />
+            <mxPoint x="310" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-10" value="Create a blank &quot;Dashes equivalent to the word" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-2" target="rcmPrmMot0k1nDIsFZoV-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="200" as="sourcePoint" />
+            <mxPoint x="310" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="720" as="targetPoint" />
+            <mxPoint x="130" y="640" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="130" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-12" value="Fill the Dash with the correct word" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="rcmPrmMot0k1nDIsFZoV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-16" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-17" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="320" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-24" value="Game Over" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-27" target="rcmPrmMot0k1nDIsFZoV-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="615" />
+              <mxPoint x="690" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-27" value="have they run out of life ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="459.5" y="560" width="161" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rcmPrmMot0k1nDIsFZoV-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="580" as="targetPoint" />
+            <mxPoint x="130" y="480" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="240" as="targetPoint" />
+            <mxPoint x="90" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="40" y="600" />
+              <mxPoint x="40" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-33" value="All the field filled ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-34" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="660" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-38" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="680" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-39" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="610" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rcmPrmMot0k1nDIsFZoV-40" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="500" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
